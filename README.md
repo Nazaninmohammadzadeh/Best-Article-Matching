@@ -65,5 +65,22 @@ The articles are loaded into the system and preprocessed to facilitate the extra
 - Streamlit communicates with FastAPI, sending user queries and displaying the results returned by the backend.
 - The system provides a seamless experience where the FastAPI backend handles data processing, and Streamlit offers an intuitive, real-time user interface for       interacting with the system.
 
+## 6. How to Use
 
+- Step 1: Clone the Repository
+`git clone <repository-url>`
+- Step 2: Navigate to the Project Directory
+`cd your-repository-name`
+- Step 3: Install Dependencies
+`pip install -r requirements.txt`
+- Step 4: Run the Application
+Once the dependencies are installed, you can start the FastAPI server and Streamlit interface.
+### For FastAPI (Backend):
+`uvicorn api:app --reload`
+### For Streamlit (Frontend):
+`streamlit run streamlit_interface.py`
+- Step 6: Access the Application
+
+FastAPI should now be running on http://127.0.0.1:8000 (or whichever port is specified).
+Streamlit should be running on http://localhost:8501 for the interactive interface.
 
